@@ -1,0 +1,18 @@
+---
+- apt: name={{ item }} state=latest update_cache=yes
+  with_items:
+    - build-essential
+    - git
+    - mysql-server
+    - nmap
+    - php5
+    - php5-cli
+    - python-dev
+    - python-pip
+    - traceroute
+    - vim
+
+- pip: name={{ item }} state=latest
+  with_items:
+    - httpie
+    - turbolift

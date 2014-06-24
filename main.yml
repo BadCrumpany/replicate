@@ -1,0 +1,5 @@
+---
+- hosts: all
+  roles:
+    - common
+    - ansible-role-add-ssh-keys-from-github

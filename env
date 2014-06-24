@@ -1,0 +1,7 @@
+[opencloud]
+replicate-dfw.julianmontez.com     ansible_connection=ssh     ansible_ssh_user=root
+replicate-ord.julianmontez.com     ansible_connection=ssh     ansible_ssh_user=root
+replicate-iad.julianmontez.com     ansible_connection=ssh     ansible_ssh_user=root
+replicate-syd.julianmontez.com     ansible_connection=ssh     ansible_ssh_user=root
+replicate-hkg.julianmontez.com     ansible_connection=ssh     ansible_ssh_user=root
+replicate-lon.julianmontez.com     ansible_connection=ssh     ansible_ssh_user=root
